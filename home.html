@@ -1,0 +1,231 @@
+<DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1, shrink-to-fit=no">
+    <title>FIMN</title>
+    <!--CSS do Bootstrap-->
+    <link rel="stylesheet" href="../bootstrap/bootstrap/dist/css/bootstrap.css">
+      
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+          width: 100%;
+          height: 100%;
+      }
+      </style>
+</head>
+<body>
+  <!--Primeiro o jQuery depois o popper e por fim o bootstrap JS-->
+  <script src="../bootstrap/jquery/dist/jquery.min.js"></script>
+    <script src="../bootstrap/popper/dist/popper.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!--Aqui vou começar a escrever meu site-->
+  <!--Containetr Geral-->
+  <div class="container">
+    <div class=row>
+      <div class=col-12>
+        <nav class="navbar fixed-toop navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+              <img src="imagens/logoempresa.jpg" width="30" height="30" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="intranet.html">Intranet</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                FAMÁCIA ITAÚNA MORADA NOVA
+              </span>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <blockquote class="blockquote text-center">
+            <h1 class="h1">FARMÁCIA ITAÚNA MORADA NOVA</h1>
+        </blockquote>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="../imagens/jornalFrente.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../imagens/jornalVerso.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="../imagens/logoempresa.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+            </a>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2>Parceiros</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Visualizar 
+  </button>
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Parceiros</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group">Agua Mineral Viva</li>
+            <li class="list-group">Contabilidade Pontual</li>
+            <li class="list-group">Criações Bicho papão</li>
+            <li class="list-group">Instituto Santa Monica</li>
+            <li class="list-group">Lavanderia Lider</li>
+          </ul>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        <div class="col">
+          <h2>PBMs</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalPBMs">
+    Visualizar
+  </button>
+  <!-- The Modal -->
+  <div class="modal" id="ModalPBMs">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Pharmacy Benefit Management</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group">Vale Mais Saude</li>
+            <li class="list-group">Aboot e Você</li>
+            <li class="list-group">Epharma</li>
+            <li class="list-group">TRN-Center</li>
+          </ul>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        <div class="col">
+          <h2>Pagamento</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalFormPg">
+    Visualizar
+  </button>
+  <!-- The Modal -->
+  <div class="modal" id="ModalFormPg">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Formas de Pagamento</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group">Carão de Crédito</li>
+            <li class="list-group">BrasilCard</li>
+            <li class="list-group">MGCard</li>
+            <li class="list-group">XCard</li>
+          </ul>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card mb-3">
+            <img class="card-img-top" src="../imagens/fpopular.jpeg" alt="Aqui tem Farmácia Popular" height="300">
+            <div class="card-body">
+              <h5 class="card-title">Programa Aqui tem Farmácia Popular</h5>
+              <p class="card-text">Farmácia credenciada ao programa Aqui tem farmacia popular do governo federal.</p>
+              <button type="button" class="btn btn-outline-primary"><a href="http://portalms.saude.gov.br/acoes-e-programas/farmacia-popular">Veja Mais</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="roll">
+        <div class="col">
+          <address>
+            Av. Carlos Jose Abreu Diniz, 297 Morada Nova MG<br>
+            Telefones: 3242-7282 / 99186-3207/99907-6794
+        </address>
+        <small>Copyright &copy; 2018</small>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+    
+</body>     
+</html>
+<!--https://webdevacademy.com.br/tutoriais/bootstrap-4-como-comecar/-->
